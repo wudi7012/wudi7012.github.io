@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Here is Di Wu. I am a first-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Professor XXX.
+Here is Di Wu. I am a first-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Professor Bo Jin.
 
 For the long term, my research interest focuses on building capable and dependable AI agents for human life. Specifically, it includes:
 
