@@ -10,6 +10,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<div style="font-size: 24px; font-weight: bold; color: red; border: 2px solid red; padding: 12px; background-color: #fff0f0;">
+⚠️ This webpage is currently under construction. Full content will be published soon. Stay tuned! 🚀
+</div>
+
+---
 Here is Di Wu. I am a first-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Professor Bo Jin.
 
 For the long term, my research interest focuses on building capable and dependable AI agents for human life. Specifically, it includes:
