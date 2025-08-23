@@ -10,33 +10,36 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div style="font-size: 24px; font-weight: bold; color: red; border: 2px solid red; padding: 12px; background-color: #fff0f0;">
-⚠️ This webpage is currently under construction. Full content will be published soon. Stay tuned! 🚀
+<div style="font-size: 18px; font-weight: bold; color: blue; border: 2px solid blue; padding: 12px; background-color: #f0f8ff;">
+🚀 I am actively seeking PhD opportunities for 2027 Fall and internship positions for any time. Please feel free to contact me! 📧
 </div>
 
 ---
-Here is Di Wu. I am a first-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Professor Bo Jin.
+Here is Di Wu. I am a first-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Prof. [Bo Jin](https://scholar.google.com/citations?user=KayTjqAAAAAJ&hl=en) and [Wenhao Li](https://ewanlee.weebly.com/)
 
-For the long term, my research interest focuses on building capable and dependable AI agents for human life. Specifically, it includes:
+<u><span style="color:gray;">My Research Motivation:</span> I believe Reinforcement Learning with piror knowledge (Foudation models) can make a more divergent and capable Agent for human life</u>
+
+<!-- For the long term, my research interest focuses on building capable and dependable AI agents for human life.  -->
+Specifically, it includes:
 
 - **Generative Agent**: Transforming LLMs from conversational chatbots into intelligent agents capable of performing actions, which requires agents to decompose tasks through reasoning and planning, enabling them to take actions and accomplish more concrete tasks in the real world.
-  - <span style="color:gray;">Planning and Reasoning</span>
-  - <span style="color:gray;">Expanding the action space</span>: Physical action/Embodied AI, GUI agent
+  
 
 - **Multi-Agent System**: Exploring efficient methods to construct multi-agent systems for solving tasks, as well as the emergent social behaviors among multiple agents.
-  - <span style="color:gray;">Multi-agent Collaboration</span>
 
 
 
 # 🔥 News
++ 🎉 2025.4: One first-author survey paper has been accepted by **IJCAI 2025** about Multi-agent Collaboration in Embodied AI.
++ 🚀 2024.7: Start my research journey
 
-# 📝 Publications 
 
+<!-- # 📝 Publications  -->
 
-# 🎖 Honors and Awards
 
 # 📖 Educations
++ 2020 - 2024: School of Software Engineering, Tongji University, Bachelor  
++ 2024 - 2027 (Expected): School of Computer Science, Tongji University, Master 
 
-# 💬 Invited Talks
 
-# 💻 Internships
+<!-- # 💻 Internships -->
