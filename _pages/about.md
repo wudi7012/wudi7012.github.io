@@ -22,7 +22,7 @@ Here is Di Wu. I am a first-year master's student in the School of Computer Scie
 <!-- For the long term, my research interest focuses on building capable and dependable AI agents for human life.  -->
 Specifically, it includes:
 
-- **Generative Agent**: Transforming LLMs from conversational chatbots into intelligent agents capable of performing actions, which requires agents to decompose tasks through reasoning and planning, enabling them to take actions and accomplish more concrete tasks in the real world.
+- **Agentic RL**: Transforming foundation models into intelligent agents capable of performing actions, while reinforcement learning enables them to move beyond supervised paradigms and acquire more distinctive, autonomous abilities for reasoning, planning, and accomplishing real-world tasks.
   
 
 - **Multi-Agent System**: Exploring efficient methods to construct multi-agent systems for solving tasks, as well as the emergent social behaviors among multiple agents.
