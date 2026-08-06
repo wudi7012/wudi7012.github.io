@@ -15,26 +15,24 @@ redirect_from:
 </div>
 
 ---
-Here is Di Wu. I am a first-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Prof. [Bo Jin](https://scholar.google.com/citations?user=KayTjqAAAAAJ&hl=en) and [Wenhao Li](https://ewanlee.weebly.com/)
+Here is Di Wu. I am a second-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Prof. [Bo Jin](https://scholar.google.com/citations?user=KayTjqAAAAAJ&hl=en) and [Wenhao Li](https://ewanlee.weebly.com/)
 
 <u><span style="color:gray;">My Research Motivation:</span> I believe Reinforcement Learning with prior knowledge (Foundation models) can make a more divergent and capable Agent for human life</u>
 
 <!-- For the long term, my research interest focuses on building capable and dependable AI agents for human life.  -->
 Specifically, it includes:
 
-- **Agentic RL**: Transforming foundation models into intelligent agents capable of performing actions, while reinforcement learning enables them to move beyond supervised paradigms and acquire more distinctive, autonomous abilities for reasoning, planning, and accomplishing real-world tasks.
-  
+- **Agentic RL**: Developing foundation-model-based agents that can reason, plan, and act. I am particularly interested in reinforcement learning and self-evolution methods that enable agents to move beyond supervised learning and autonomously acquire new capabilities for real-world tasks.
+
+- **Embodied Agents**: Building agents that can perceive, reason, and act in the physical world, with a particular focus on self-evolving embodied models and agentic embodied systems.
 
 - **Multi-Agent System**: Exploring efficient methods to construct multi-agent systems for solving tasks, as well as the emergent social behaviors among multiple agents.
 
 
-# 📄 CV
-+ [English CV](/cv/Di_Wu_CV_EN.pdf)
-+ [中文简历](/cv/Di_Wu_CV_CN.pdf)
-
-
 
 # 🔥 News
++ 🎉 2026.4: One first-author paper has been accepted by **ACL 2026 Main Track** about Embodied Task Planning and RL Post-Training.
++ 🏆 2025.9: Honored to receive the **National Scholarship for Graduate Students** at Tongji University (ranked 1st out of 63).
 + 🎉 2025.4: One first-author survey paper has been accepted by **IJCAI 2025** about Multi-agent Collaboration in Embodied AI.
 + 🚀 2024.7: Start my research journey
 
@@ -45,6 +43,10 @@ Specifically, it includes:
 # 📖 Educations
 + 2020 - 2024: School of Software Engineering, Tongji University, Bachelor  
 + 2024 - 2027 (Expected): School of Computer Science, Tongji University, Master 
+
+# 📄 CV
++ [English CV](/cv/Di_Wu_CV_EN.pdf)
++ [中文简历](/cv/Di_Wu_CV_CN.pdf)
 
 
 <!-- # 💻 Internships -->
