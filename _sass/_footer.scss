@@ -2,6 +2,66 @@
    FOOTER
    ========================================================================== */
 
+.page__last-updated {
+  clear: both;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 2.5em 0 0.75em;
+  padding-top: 1.5em;
+  border-top: 1px solid $border-color;
+  color: $dark-gray;
+  font-family: $global-font-family;
+  line-height: 1.5;
+
+  &::before,
+  &::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: $border-color;
+  }
+
+  &-badge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    border: 1px solid #e4e9ef;
+    border-radius: 10px;
+    background-color: #f8fafc;
+  }
+
+  &-icon {
+    flex: 0 0 22px;
+    width: 22px;
+    height: 22px;
+    color: $info-color;
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  &-label {
+    color: #626e7b;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  time {
+    color: #34465a;
+    font-size: 13px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+}
+
 .page__footer {
   @include clearfix;
   float: left;

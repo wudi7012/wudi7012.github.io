@@ -3,6 +3,8 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
+# Update this date whenever the homepage content changes.
+last_modified_at: "2026-11-02"
 redirect_from: 
   - /about/
   - /about.html
@@ -10,12 +12,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<div style="font-size: 18px; font-weight: bold; color: blue; border: 2px solid blue; padding: 12px; background-color: #f0f8ff;">
+<!-- <div style="font-size: 18px; font-weight: bold; color: blue; border: 2px solid blue; padding: 12px; background-color: #f0f8ff;">
 🚀 I am actively seeking PhD opportunities for 2027 Fall and internship positions for any time. Please feel free to contact me! 📧
-</div>
+</div> -->
 
 ---
-Here is Di Wu. I am a second-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Prof. [Bo Jin](https://scholar.google.com/citations?user=KayTjqAAAAAJ&hl=en) and [Wenhao Li](https://ewanlee.weebly.com/)
+Here is Di Wu. I am a third-year master's student in the School of Computer Science at Tongji University and a member of the MAIL-TAII Lab, advised by Prof. [Bo Jin](https://scholar.google.com/citations?user=KayTjqAAAAAJ&hl=en) and [Wenhao Li](https://ewanlee.weebly.com/)
 
 <u><span style="color:gray;">My Research Motivation:</span> I believe Reinforcement Learning with prior knowledge (Foundation models) can make a more divergent and capable Agent for human life</u>
 
@@ -31,6 +33,7 @@ Specifically, it includes:
 
 
 # 🔥 News
++ 🚀 2026.6: Excited to join the [HKU Agentic Intelligence Lab](https://agentic-intelligence-lab.org/) for a summer research internship!
 + 🎉 2026.4: One first-author paper has been accepted by **ACL 2026 Main Track** about Embodied Task Planning and RL Post-Training.
 + 🏆 2025.9: Honored to receive the **National Scholarship for Graduate Students** at Tongji University (ranked 1st out of 63).
 + 🎉 2025.4: One first-author survey paper has been accepted by **IJCAI 2025** about Multi-agent Collaboration in Embodied AI.
