@@ -4,7 +4,7 @@ title: ""
 excerpt: ""
 author_profile: true
 # Update this date whenever the homepage content changes.
-last_modified_at: "2026-11-02"
+last_modified_at: "2026-11-03"
 redirect_from: 
   - /about/
   - /about.html
