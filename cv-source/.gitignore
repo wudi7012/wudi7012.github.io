@@ -1,0 +1,14 @@
+build/
+zh/generated/
+zh/*.pdf
+zh/*.aux
+zh/*.log
+zh/*.out
+en/*.pdf
+en/*.aux
+en/*.log
+en/*.out
+en/fonts/*.ttf
+en/fonts/Microsoft-EULA.txt
+__pycache__/
+.venv/

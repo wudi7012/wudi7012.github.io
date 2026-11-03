@@ -1,0 +1,72 @@
+{
+  "reference_sha256": "03688ff3b54f4f72bff0985eff11509ef2237f1876b16def7ea036d2d9b31c8b",
+  "candidate_sha256": "7603dce99a96d236a0096a4703d172856888a9f195ed5d0f4958dbc798216f90",
+  "renderers": {
+    "MuPDF": "2.0",
+    "Poppler": "pdftoppm version 24.02.0"
+  },
+  "page_count_equal": true,
+  "pages": [
+    {
+      "page": 1,
+      "page_box_equal": true,
+      "text_equal": true,
+      "mupdf": [
+        {
+          "dpi": 72,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 144,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 300,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 600,
+          "different_pixels": 0
+        }
+      ],
+      "poppler": {
+        "dpi": 300,
+        "different_pixels": 0
+      },
+      "font_bytes_equal": true,
+      "image_bytes_equal": true,
+      "normalized_drawing_operators_equal": true
+    },
+    {
+      "page": 2,
+      "page_box_equal": true,
+      "text_equal": true,
+      "mupdf": [
+        {
+          "dpi": 72,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 144,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 300,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 600,
+          "different_pixels": 0
+        }
+      ],
+      "poppler": {
+        "dpi": 300,
+        "different_pixels": 0
+      },
+      "font_bytes_equal": false,
+      "image_bytes_equal": true,
+      "normalized_drawing_operators_equal": true
+    }
+  ],
+  "visual_and_text_match": true
+}

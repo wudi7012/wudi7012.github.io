@@ -1,0 +1,54 @@
+% The original PDF uses a 615 x 870 bp page and 18 bp side margins.
+\usepackage[paperwidth=615bp,paperheight=870bp,left=18bp,right=18bp,top=20bp,bottom=25bp]{geometry}
+\usepackage{lmodern}
+\usepackage{fontspec}
+% Prefer Microsoft YaHei to match the previous English PDF.
+% Regular and bold faces are installed from the original Microsoft font package.
+\setmainfont{msyh.ttf}[Path=fonts/,BoldFont=msyhbd.ttf]
+\newfontfamily\cjk{msyh.ttf}[Path=fonts/]
+\usepackage{graphicx,xcolor,tabularx,array,enumitem,needspace}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Di Wu - Curriculum Vitae},pdfauthor={Di Wu},pdflang={en-US}}
+\definecolor{sectionblue}{HTML}{4E7282}
+\definecolor{paperdivider}{HTML}{DCE3E7}
+\definecolor{bodygray}{HTML}{555555}
+\definecolor{headinggray}{HTML}{333333}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\AtBeginDocument{\fontsize{11bp}{14.6bp}\selectfont\color{bodygray}}
+\newcommand{\cvheader}[5]{%
+  \noindent\begin{minipage}[c][89bp][t]{480bp}
+    \centering\vspace{0bp}{\fontsize{16.5bp}{22bp}\selectfont\color{headinggray}#1\par}
+    \vspace{6bp}{\fontsize{10.5bp}{17bp}\selectfont #2\par
+    \href{tel:+86#4}{#4}\enspace\textcolor{paperdivider}{|}\enspace\href{mailto:#3}{#3}\par
+    \href{https://#5/}{#5}\par}
+  \end{minipage}\hfill
+  \begin{minipage}[c][89bp][t]{95bp}\centering\includegraphics[width=80bp,height=93.37bp]{portrait.jpeg}\end{minipage}\par
+  \vspace{7bp}}
+\newcommand{\cvsection}[1]{%
+  \par\Needspace{65bp}\addvspace{7bp}{\color{sectionblue}\fontsize{12bp}{16bp}\selectfont\bfseries #1\par}
+  \vspace{1bp}{\color{sectionblue}\hrule height .6bp}\vspace{4bp}}
+% August English CV: date first, school left / degree right on the next line.
+\newcommand{\educationentry}[3]{%
+  {\color{headinggray}\bfseries\fontsize{9.75bp}{15bp}\selectfont
+  #1\par\nobreak
+  \noindent #2\hfill #3\par}\vspace{3bp}}
+\newcounter{publicationcount}
+\newcommand{\publication}[1]{%
+  \par\Needspace{62bp}% Keep the divider, title and opening lines together.
+  \ifnum\value{publicationcount}>0
+    \addvspace{6bp}{\color{paperdivider}\hrule height .4bp}\nobreak\vspace{5bp}
+  \else\addvspace{3bp}\fi
+  \stepcounter{publicationcount}%
+  {\color{headinggray}\bfseries #1\par}\nobreak\vspace{1bp}\nobreak}
+\newenvironment{cvitems}{\begin{itemize}[leftmargin=14bp,labelsep=5bp,itemsep=1bp,topsep=2bp,parsep=0pt,partopsep=0pt]}{\end{itemize}}
+\newcommand{\experiencegap}{\par\Needspace{65bp}\vspace{8bp}}
+\emergencystretch=2em
+\raggedright
+
+\newcommand{\projectrow}[2]{%
+  {\color{headinggray}\bfseries\fontsize{11bp}{14.6bp}\selectfont
+  \noindent #1\hfill #2\par}\nobreak}
+\clubpenalty=10000
+\widowpenalty=10000

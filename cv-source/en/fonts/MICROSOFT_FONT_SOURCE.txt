@@ -1,0 +1,7 @@
+Microsoft YaHei Regular / Bold 5.00
+Source package: VistaFont_CHS.EXE, Microsoft Download Center historical archive.
+Archive index: https://legacyupdate.net/download-center/download/14577/simplified-chinese-cleartype-fonts-for-windows-xp
+Download: https://web.archive.org/web/20080520000000id_/https%3A//download.microsoft.com/download/c/7/e/c7e5397d-004f-468b-a441-dd0828dc1a17/VistaFont_CHS.EXE
+Package SHA1 verified: 6a825eeb1a36628ef25fb777d259d0aff3749afb
+Both fonts contain 29066 cmap entries; ASCII coverage verified.
+Installed locally and used for the final PDF; excluded from Git.

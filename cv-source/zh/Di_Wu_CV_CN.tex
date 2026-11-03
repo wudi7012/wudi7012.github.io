@@ -1,0 +1,128 @@
+% Fixed-layout, editable Chinese CV. Build using `make`, not standalone pdflatex.
+% Text is real selectable PDF text; no whole-page PDF or screenshot is included.
+% Each CVText corresponds to one original styled text run. Keep explicit line breaks.
+\documentclass{article}
+\input{generated/resources.tex}
+\pagestyle{empty}
+\begin{document}
+\noindent\hbox{}%
+
+% 个人信息 / 原稿保留性别、邮箱和头像
+\CVText{t001}{吴笛}
+\CVText{t002}{24岁}
+\CVText{t003}{男}
+\CVText{t004}{RL，Embodied agent}
+\CVText{t005}{diwu7012@gmail.com}
+
+% 教育背景
+\CVText{t006}{2020-09 ~ 2024-09}
+\CVText{t007}{同济大学}
+\CVText{t008}{软件工程（}
+\CVText{t009}{本科}
+\CVText{t010}{）}
+\CVText{t011}{2024-09 ~ 至今}
+\CVText{t012}{同济大学（推免）}
+\CVText{t013}{计算机科学与技术（}
+\CVText{t014}{硕士}
+\CVText{t015}{）}
+\CVText{t016}{教育背景}
+
+% 荣誉证书
+\CVText{t017}{荣誉证书}
+\CVText{t018}{•}
+\CVText{t019}{英语四级626分，雅思7.5，本科优秀学生奖学金若干，}
+\CVText{t020}{研究生国家奖学金（1/65）}
+
+% 科研成果标题
+\CVText{t021}{Generative Multi-Agent Collaboration in Embodied AI: A Systematic Review, 2025}
+\CVText{t022}{On-Policy Reinforcement Fine-Tuning with Offline Reward for Multi-Step Embodied Planning, 2025}
+\CVText{t023}{AtomEgo: Exploring Ego–Robot Integration for Embodied Foundation Model Pretraining, 2026}
+\CVText{t024}{Leaping Beyond the Teacher via Reinforced On-Policy Distillation for Robotic Manipulation，2026}
+\CVText{t025}{LaST1.0: A Unified Latent World-Action Model with Control-Centric SpatioTemporal Reasoning, 2026}
+\CVText{t026}{科研成果}
+
+% 科研成果正文
+\CVText{t027}{IJCAI 2025中稿，独立一作}
+\CVText{t028}{，首篇在大模型时代视角下，对具身情景下的多智能体协作进行的系统性综述。我们指出，如今的Agent可}
+\CVText{t029}{以外化在一个具身实体上，也可以指代于一个内部的Foudation model，因此，我们将协作分为了外部协作与内部协作，并系统阐述了}
+\CVText{t030}{这样的系统的关键模块设计，应用与未来展望。}
+\CVText{t031}{ACL 2026 main中稿，独立一作。}
+\CVText{t032}{首篇将RLVR强化微调应用在具身规划任务中。与传统的math推理任务不同，具身规划是一个多轮}
+\CVText{t033}{的，交互式的环境，因此，我们应用了一种简单但有效的}
+\CVText{t034}{离线奖励}
+\CVText{t035}{方式，解决多轮奖励稀疏 \& 具身交互昂贵的问题。我们给出了此算}
+\CVText{t036}{法理论上的upper bound证明，并在EmbodiedBench上取得了SOTA的效果。此工作被ERA，Pelican-VL等知名工作引用。}
+\CVText{t037}{ICRA 2027 Under Review，独立一作}
+\CVText{t038}{. 探索利用大规模人类第一视角（Ego）数据提升具身基础模型的预训练效果：(1) 构建约 2,659}
+\CVText{t039}{ }
+\CVText{t040}{小时的 Ego–Robot 统一数据集与预训练管线；(2) 系统研究双动作头联合训练、渐进式跨本体对齐及 World–Action Modeling 三种}
+\CVText{t041}{预训练范式；(3) 在真机实验中验证跨本体对齐的有效性，最佳方法将任务成功率从 32.86\% 提升至 53.57\%。}
+\CVText{t042}{CVPR 2027 Under Review, 共同一作. }
+\CVText{t043}{提出 Reinforced On-Policy Distillation（ReOPD）框架, 通过阶段自适应的 Teacher–RL 协同}
+\CVText{t044}{优化机制，结合教师密集监督与环境奖励，实现高效探索并突破教师性能上限，并结合 Human-in-the-Loop 实现高效真机强化学习}
+\CVText{t045}{ICRA 2027 Under Review. }
+\CVText{t046}{提出面向精细机器人操作的统一 Latent World-Action Model，将传统的未来视频预测转化为基于腕部视}
+\CVText{t047}{角的几何感知 Latent Prediction，利用未来交互动态作为辅助监督，增强模型的空间理解与动作控制能力；设计 Encoder-Free 视觉}
+\CVText{t048}{架构及基于 4D-RoPE 的 LaST-Attention，实现高效时空建模}
+
+% 实习经历标题
+\CVText{t049}{2025-07 ~ 2026-03}
+\CVText{t050}{同济\&凯乐士具身合作项目}
+\CVText{t051}{group leader}
+\CVText{t052}{2026-05 ~ 2026-09}
+\CVText{t053}{香港大学 Agentic Intelligence-Lab}
+\CVText{t054}{Research Intern}
+\CVText{t055}{2026-09 ~ 至今}
+\CVText{t056}{至简动力-北京大学联合实验室}
+\CVText{t057}{Research Intern}
+\CVText{t058}{实习经验}
+
+% 同济与凯乐士
+\CVText{t059}{主持同济大学 × 凯乐士具身智能合作项目，面向仓储搬运/分拣场景推进智能化落地，目标产出对标仓储场景，跨出简单桌面任务的通}
+\CVText{t060}{用 VLA模型与真机系统。5 个月内带领本科生完成实验室 }
+\CVText{t061}{从 0 到 1}
+\CVText{t062}{ 的真机系统构建与 VLA 训练部署，覆盖完整研发闭环如下：}
+\CVText{t063}{•}
+\CVText{t064}{真机硬件适配}
+\CVText{t065}{：基于 Realman 双臂轮式机器人，完成夹爪和相机等关键硬件适配，例如拆机排障、更换改造夹爪适配物流场景等}
+\CVText{t066}{•}
+\CVText{t067}{数采系统构建}
+\CVText{t068}{：自主搭建高效数据采集与replay框架，支持可视化采集、同步与后处理功能}
+\CVText{t069}{•}
+\CVText{t070}{模型训练与部署}
+\CVText{t071}{：基于pi05完成从训练到部署的 VLA 流程搭建，构建本地部署代码并优化推理速度，提升真实场景下的执行效率。}
+\CVText{t072}{•}
+\CVText{t073}{长程物流分拣 Demo }
+\CVText{t074}{：构建多阶段物流分拣 Demo，涵盖识别、抓取、搬运、投放等完整流程，产出}
+\CVText{t075}{5min}
+\CVText{t076}{级别物流分拣demo。}
+
+% 香港大学
+\CVText{t077}{在HKU Agentic Intelligence Lab 作为 Research Intern，参与以下项目工作: (1) }
+\CVText{t078}{具身基模预训练}
+\CVText{t079}{：拟使用数千小时的真机机器人数据}
+\CVText{t080}{与Ego数据，进行具身基座模型的预训练，探索Scaling Ego数据对于预训练的效果。其中主要负责数据采集处理与质量筛选，以及模型}
+\CVText{t081}{预训练的相关工作。(2)}
+\CVText{t082}{ 具身强化学习后训练}
+\CVText{t083}{：针对现在的VLA RL后训练样本效率低，收敛速度慢的问题，拟提出一种基于反思的}
+\CVText{t084}{Reward shaping机制，将训练执行过程中的反思信号加入到VLA Online RL的后训练中，从而优化VLA-RL的后训练流程。}
+
+% 至简动力与北京大学
+\CVText{t085}{自9月份至今，在至简动力与PKU-HMI lab作为Research Intern。}
+\CVText{t086}{北京大学方面}
+\CVText{t087}{，参与Last系列基模研发，产出Last1.0，Last-OPD等}
+\CVText{t088}{系列论文；}
+\CVText{t089}{至简动力方面}
+\CVText{t090}{，参与工程落地实现，包括（1）}
+\CVText{t091}{具身模型部署与调优}
+\CVText{t092}{：完成 π}
+\CVText{t093}{₀}
+\CVText{t094}{.}
+\CVText{t095}{₅}
+\CVText{t096}{、Cosmos Policy等模型的真机部署适配，}
+\CVText{t097}{构建真机部署框架，并在部署测对模型效果进行调优（2）}
+\CVText{t098}{真机强化学习部署与训练}
+\CVText{t099}{：实现RLT算法在天机机器臂任务上的复现，构建真}
+\CVText{t100}{机强化学习流程，并成功提升插入等精细任务的成功率}
+\CVFinish
+\end{document}

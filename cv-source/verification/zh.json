@@ -1,0 +1,42 @@
+{
+  "reference_sha256": "e80a487bdbda045a7d8cc00102100b1914c34ff8477696856ca005b553793af8",
+  "candidate_sha256": "03e4b70c49297aad0e62b94a7c36448083ad8099421a1963f4a7942f2d242946",
+  "renderers": {
+    "MuPDF": "2.0",
+    "Poppler": "pdftoppm version 24.02.0"
+  },
+  "page_count_equal": true,
+  "pages": [
+    {
+      "page": 1,
+      "page_box_equal": true,
+      "text_equal": true,
+      "mupdf": [
+        {
+          "dpi": 72,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 144,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 300,
+          "different_pixels": 0
+        },
+        {
+          "dpi": 600,
+          "different_pixels": 0
+        }
+      ],
+      "poppler": {
+        "dpi": 300,
+        "different_pixels": 0
+      },
+      "font_bytes_equal": true,
+      "image_bytes_equal": true,
+      "normalized_drawing_operators_equal": true
+    }
+  ],
+  "visual_and_text_match": true
+}

@@ -1,0 +1,72 @@
+% Compile with XeLaTeX. Content and layout are separated for easy editing.
+\documentclass[10pt]{article}
+\input{cv-style.tex}
+\begin{document}
+\cvheader{Di Wu}{24 years old\enspace |\enspace RL, Embodied Agents}{diwu7012@gmail.com}{13966610828}{wudi7012.github.io}
+
+\cvsection{Education}
+\educationentry{Sep. 2020 - Sep. 2024}{Tongji University}{Software Engineering (Bachelor\textquotesingle{}s)}
+\educationentry{Sep. 2024 - Present}{Tongji University}{Computer Science (Master\textquotesingle{}s)}
+
+\cvsection{Honors and Certifications}
+\begin{cvitems}
+\item CET-4: 626; IELTS: 7.5; \textbf{National Scholarship for Graduate Students (ranked 1/65)}.
+\end{cvitems}
+
+\cvsection{Research}
+\publication{Generative Multi-Agent Collaboration in Embodied AI: A Systematic Review, 2025}
+\textbf{Accepted by IJCAI 2025, Sole first author.} This work presents the first systematic survey on collaborative behaviors among multiple agents in embodied scenarios from the perspective of the generative-model era. We propose that agents may exist as either embodied entities or internal components within foundation models. This leads to a distinction between external and internal collaboration, which we analyze through key system designs and future directions.
+
+\publication{On-Policy Reinforcement Fine-Tuning with Offline Reward for Multi-Step Embodied Planning, 2025}
+\textbf{Accepted by ACL 2026 Main Conference, Sole first author.} This is the first work to apply RLVR-based reinforcement fine-tuning to embodied planning tasks. Unlike conventional reasoning tasks, embodied planning involves a multi-turn, interactive environment. We therefore introduce a simple yet effective offline reward method to address sparse rewards in multi-turn tasks and the high cost of interaction. We provide a theoretical proof of the algorithm\textquotesingle{}s upper bound and achieve SOTA performance on EmbodiedBench. This work has been cited by notable studies such as ERA and Pelican-VL.
+
+\publication{AtomEgo: Exploring Ego--Robot Integration for Embodied Foundation Model Pretraining, 2026}
+\textbf{Under review at ICRA 2027; sole first author.} Explores large-scale human egocentric data for embodied foundation model pretraining: (1) builds a unified Ego--Robot dataset of approximately 2,659 hours and a pretraining pipeline; (2) systematically studies three paradigms: joint training with dual action heads, progressive cross-embodiment alignment, and world--action modeling; (3) validates cross-embodiment alignment on real robots, with the best method improving task success from 32.86\% to 53.57\%.
+
+\publication{Leaping Beyond the Teacher via Reinforced On-Policy Distillation for Robotic Manipulation, 2026}
+\textbf{Under review at CVPR 2027; co-first author.}
+Proposes Reinforced On-Policy Distillation (ReOPD), a VLA post-training framework that integrates dense teacher supervision with sparse environmental rewards. Introduces a stage-adaptive leader--follower mechanism that dynamically shifts optimization priority from teacher guidance to environmental feedback, filtering conflicting learning signals to accelerate early convergence while enabling students to surpass their teachers. The framework supports both discrete-action and flow-matching policies, demonstrating its generality across different VLA architectures. Further extends ReOPD with human-in-the-loop corrections for efficient real-world reinforcement learning, improving task success and generalization across robotic manipulation tasks.
+
+\publication{LaST1.0: A Unified Latent World-Action Model with Control-Centric SpatioTemporal Reasoning, 2026}
+\textbf{Under review at ICRA 2027.}
+Proposes LaST1.0, a unified latent World-Action Model for fine-grained robotic manipulation. Unlike conventional video-based world modeling, LaST1.0 predicts geometry-aware future latents from wrist-camera observations, focusing on control-relevant robot--object interactions rather than visual reconstruction. Introduces an encoder-free visual architecture and LaST-Attention with 4D-RoPE to preserve fine-grained spatial information and enable structured spatiotemporal reasoning. Future latent prediction serves as training-only supervision, allowing efficient action generation during inference. Achieves state-of-the-art success rates of 92.0\%, 99.0\%, and 86.3\% on RLBench, LIBERO, and LIBERO-Plus, respectively, with strong performance across diverse real-world robotic manipulation tasks.
+
+% \publication{TextAtari: 100K Frames Game Playing with Language Agents, 2024}
+% \textbf{arXiv preprint.} Constructs text-based environments for 23 Atari games using AtariARI to evaluate long-horizon decision-making and planning over up to 100K steps.
+
+\newpage
+\cvsection{Internship Experience}
+\projectrow{Jul 2025 - Mar 2026}{}
+\projectrow{Tongji University \& GALAXIS Embodied AI Collaboration Project}{Group Leader}
+Led an collaboration project between Tongji University and Galaxis, targeting intelligent automation in warehouse handling and sorting scenarios. The goal is to build a generalizable VLA model and real-robot system tailored to real-world warehouse task. Over the course of 5 months, led a team of undergraduate students to complete the full-stack development from scratch, covering the entire R\&D pipeline:
+\begin{cvitems}
+\item \textbf{Real-World Hardware Integration:} Built on the Realman dual-arm wheeled robot platform. Completed key hardware adaptations including gripper and camera integration, hands-on debugging of hardware issues (e.g., USB disconnection), and custom gripper retrofitting for warehouse-specific manipulation.
+\item \textbf{Simulation System Development:} Developed a warehouse logistics simulation environment using Isaac Lab, aiming to establish a task benchmark specifically tailored to warehouse manipulation and sorting tasks.
+\item \textbf{Data Collection \& Replay System:} Designed and implemented a high-efficiency data collection and replay framework supporting real-time visualization, trajectory synchronization, and post-processing for large-scale training.
+\item \textbf{Model Training and Deployment:} Built the end-to-end VLA training and deployment pipeline based on pi05, implemented on-device inference code with latency optimization to ensure responsive performance in real-world.
+\item \textbf{Long-Horizon Sorting Demo:} Constructed a multi-stage warehouse sorting demo involving perception, grasping, transporting, and placing, achieving stable real-robot execution of long-horizon tasks.
+\end{cvitems}
+
+\experiencegap
+\projectrow{May 2026 - Sep. 2026}{}
+\projectrow{Agentic Intelligence Lab, The University of Hong Kong}{Research Intern}
+Worked as a Research Intern at the HKU Agentic Intelligence Lab and contributed to the following projects:\par
+\textbf{(1) Embodied Foundation Model Pre-training:} Pre-trained an embodied foundation model using thousands of hours of real-world robotic data and egocentric data, with the goal of investigating the scaling effects of egocentric data on pre-training. Primarily responsible for data collection and processing, data-quality filtering, and model pre-training.\par
+\textbf{(2) Reinforcement Learning Post-training for Embodied Models:} To address the low sample efficiency and slow convergence of existing VLA RL post-training methods, explored a reflection-based reward-shaping mechanism that incorporates reflection signals generated during policy execution into VLA online RL post-training, thereby improving the overall VLA-RL post-training pipeline.
+
+\experiencegap
+\projectrow{Sep 2026 -- Present}{}
+\projectrow{Simplexity Robotics, Peking University}{Research Intern}
+Research intern at Simplexity Robotics and the PKU-HMI Lab. At \textbf{Peking University}, contributed to the LaST foundation model series, producing papers including LaST1.0 and LaST-OPD. At \textbf{Simplexity Robotics}, contributed to engineering and deployment: (1) \textbf{Embodied model deployment and system optimization:} Adapted models including $\pi_{0.5}$ and Cosmos Policy for real robots, built a unified real-robot deployment framework, and optimized the end-to-end inference and control pipeline.
+(2) \textbf{Real-world RL deployment and training:} Reproduced the RLT algorithm on Tianji robot-arm tasks, built a real-world reinforcement learning pipeline, and improved success rates on fine manipulation tasks such as insertion.
+\cvsection{Startup Experience}
+{\color{headinggray}\bfseries Wange Intelligence ({\normalfont\cjk 万格智元})\par}
+Participated in the Tsinghua University–affiliated startup project “Wange Zhiyuan,” which has secured tens of millions of RMB in seed funding.The team was awarded the \textbf{Gold Prize in the 2025 China International College Students\textquotesingle{} Innovation Competition}, First Prize in the 2025 HICOOL Global Entrepreneurship Competition, and 1st Place Nationwide in the 2024 Amazon Generative AI Innovation Challenge.
+
+\cvsection{Social Practice \& Service}
+\begin{cvitems}
+\item Short exchange program at Imperial College London
+\item Participant: CEAI 2025;CMAS 2025;CMAS 2026; IJCAI 2025 Volunteer ; IROS 2026; ICML 2026
+\item Reviewer: ICLR 2026, CVPR 2026, NeurIPS 2025 MIT-LLM Workshop, ICLR 2026 LLA Workshop, NeurIPS 2026 Meta-Agents Workshop
+\end{cvitems}
+\end{document}

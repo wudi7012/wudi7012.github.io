@@ -1,3 +1,13 @@
+## Di Wu — CV source and downloads
+
+- [中英文 LaTeX 源码、编译说明与一致性验证](cv-source/README.md)
+- [English CV](cv/Di_Wu_CV_EN.pdf) · [中文简历](cv/Di_Wu_CV_CN.pdf)
+- [Personal homepage](https://wudi7012.github.io/)
+
+The website theme documentation follows.
+
+---
+
 
 <h1 align="center">
 AcadHomepage
